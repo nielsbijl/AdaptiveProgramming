@@ -20,4 +20,12 @@ public class Zwembad {
         inhoud = breedte * lengte * diepte;
         return inhoud;
     }
+
+    public Zwembad(double Breedte, double Lengte, double Diepte) {
+        breedte = Breedte;
+        lengte = Lengte;
+        diepte = Diepte;
+
+    }
 }
+
