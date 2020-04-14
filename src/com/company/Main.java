@@ -6,11 +6,12 @@ public class Main {
 
     public static void main(String[] args) {
         // write your code here
-        int x = 1;
-        while (x <= 4)
-        {
-            System.out.println("Value of x:" + x);
-            x++;
-        }
-
+        Zwembad z1 = new Zwembad();
+        z1.breedte = 2.0;
+        z1.lengte = 2.0;
+        z1.diepte = 2.0;
+        System.out.println(z1.getBreedte());
+        System.out.println(z1.getLengte());
+        System.out.println(z1.getDiepte());
+        System.out.println(z1.getInhoud());
     }}
